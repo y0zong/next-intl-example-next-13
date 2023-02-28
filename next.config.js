@@ -1,4 +1,4 @@
-const withNextIntl = require('next-intl/plugin')("./service/i18n.ts");
+const withNextIntl = require('next-intl/plugin')();
 
 module.exports = withNextIntl({
   experimental: {appDir: true},
